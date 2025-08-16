@@ -28,23 +28,19 @@ body {
     ul { 
         padding: 30px;
         font-size: 200%;    }
-    li {
-        background: white;
-        margin: 20px ;
-        border-radius: 30px;
-        display: flex;
-        justify-content: space-between ;
-        align-items: center;
-        width: 900px;
-        padding:20px 600px 45px 60px;
-        opacity: 0;
+        li {
+    background: white;
+    margin: 20px auto;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;   
+    padding: 15px 20px; 
+    opacity: 0;
     transform: translateY(-10px);
     animation: fadeIn 0.5s forwards;
-    }
-    @keyframes fadeIn {
-    to {
-        opacity: 1;
-        transform: translateY(0); } }
+}
 .completed {
         text-decoration: line-through;
         color: burlywood;
